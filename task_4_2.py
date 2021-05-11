@@ -12,7 +12,9 @@ print("Количество чётных чисел: ", res)
 # Способ 2
 my_list2 = [2, 4, 3, 1, 8, 6, 11, 24, 12]
 res2 = 0
-for i in my_list2:
-    if i %2 == 0:
-        res2+=1
+i = 0
+while i < len(my_list2):
+    if my_list2[i] % 2 == 0:
+        res2 += 1
+    i += 1
 print(res2)

@@ -7,4 +7,8 @@ my_list.append(my_list[0])
 del my_list[0]
 print(my_list)
 
-)
+my_list2 = [1, 2, 3, 4, 5]
+my_list3 = list()
+i = 0
+
+
